@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="webchat.css">
+<script src="webchat.js"></script>
+
+<body>
+
+<div class="container">
+
+    <div class="jumbotron">
+        <h1>Integration Party</h1>
+        <h3>First we zig. Then we zag. Then we zigzag!</h3>
+
+        <div class="progressBar">
+
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                <span class="sr-only">In Progress</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Enter Message</h3>
+        </div>
+        <div class="panel-body">
+
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon1">Message</span>
+                      <input id='user-message' type="text" class="form-control" placeholder="Enter message here" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <a class="btn btn-primary btn-lg" onclick="sendMessage()">Send</a>
+                </div>
+            </div><!-- /.row -->
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <a class="btn btn-primary btn-lg" onclick="testFetch()">Test</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Message History</h3>
+        </div>
+        <div class="panel-body">
+            <ul class="list-group" id="message-history">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "dom-messaging",
+  "version": "1.0.0",
+  "description": "Chat project w dom",
+  "main": "send-sms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauldennis2/dom-messaging-lecture.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauldennis2/dom-messaging-lecture/issues"
+  },
+  "homepage": "https://github.com/pauldennis2/dom-messaging-lecture#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "twilio": "^3.3.0"
+  }
+}
